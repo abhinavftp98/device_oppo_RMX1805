@@ -27,7 +27,8 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    Snap
+    GoogleCamera \
+    vendor.qti.hardware.camera.device@1.0.vendor \
 
 # Dirac
 $(call inherit-product-if-exists, packages/apps/RealmeDirac/dirac.mk)
