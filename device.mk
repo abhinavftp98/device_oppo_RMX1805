@@ -51,6 +51,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     RealmeParts
 
+# Google sounds
+PRODUCT_PACKAGES += \
+    GoogleSounds
+
 # Get Hotword stuff
 $(call inherit-product-if-exists, vendor/xiaomi/google/google.mk)
 
