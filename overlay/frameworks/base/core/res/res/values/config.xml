@@ -601,4 +601,8 @@
 
     <!-- Feature flag to store TaskSnapshot in 16 bit pixel format to save memory. -->
     <bool name="config_use16BitTaskSnapshotPixelFormat">true</bool>
+
+    <!-- Package name that will receive an explicit manifest broadcast for
+         android.os.action.POWER_SAVE_MODE_CHANGED. -->
+    <string name="config_powerSaveModeChangedListenerPackage">com.google.android.flipendo</string>
 </resources>

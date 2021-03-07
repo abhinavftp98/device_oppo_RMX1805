@@ -1,3 +1,4 @@
+
 #
 # Copyright (C) 2020 The LineageOS Project
 #
@@ -50,6 +51,13 @@ PRODUCT_PACKAGES += \
 # Doze
 PRODUCT_PACKAGES += \
     RealmeParts
+
+# Flipendo
+PRODUCT_PACKAGES += \
+    Flipendo
+
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/configs/pixel_experience_2020.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/pixel_experience_2020.xml
 
 # Google sounds
 PRODUCT_PACKAGES += \
