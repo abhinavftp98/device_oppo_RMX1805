@@ -46,3 +46,8 @@ service ktweak /vendor/bin/sh /system/etc/init/ktweak.sh
 on property:sys.boot_completed=1
     start set_zram
     start ktweak
+
+    # Restrict permissions to socket file 
+    # to hide Magisk & co.
+    chmod 440 /proc/net/unix
+
