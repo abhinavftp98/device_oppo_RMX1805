@@ -1,3 +1,4 @@
+  
 #
 # Copyright (C) 2020 The LineageOS Project
 #
@@ -187,6 +188,10 @@ PRODUCT_BOOT_JARS += \
 # TextClassifier
 PRODUCT_PACKAGES += \
     textclassifier.bundle1
+
+# Torch
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.camera.flash-autofocus.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.flash-autofocus.xml
 
 # Wifi
 PRODUCT_COPY_FILES += \
