@@ -100,7 +100,6 @@ PRODUCT_PACKAGES += \
 
 # Init
 PRODUCT_PACKAGES += \
-    init.safailnet.rc \
     init.qcom.rc \
     fstab.qcom \
     init.oppo.rc \
