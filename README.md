@@ -7,7 +7,7 @@ Basic   | Spec Sheet
 -------:|:----------
 CPU     | 8x ARM Cortex A53, 1.8GHz
 Chipset | Qualcomm Snapdragon 450
-GPU     | Adreno 506, Full HD 1080p 60fps
+GPU     | Adreno 506, Full HD 1080p 30fps
 ROM     | 32/64GB
 RAM     | 3/4GB
 Android | 9.0
