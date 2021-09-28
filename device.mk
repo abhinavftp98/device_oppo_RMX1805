@@ -196,6 +196,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
+#Soundrecorder
+PRODUCT_PACKAGES += \
+    Soundrecorder
+
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
     RemovePackages
