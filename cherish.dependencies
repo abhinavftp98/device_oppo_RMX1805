@@ -1,6 +1,6 @@
 [
   {
-    "repository": "abhinavftp98/vendor_oppo",
+    "repository": "RMX1805/vendor_oppo",
     "target_path": "vendor/oppo",
     "remote": "github",
     "branch": "lineage-18.1"
@@ -8,6 +8,6 @@
     {
         "remote":       "github",
         "repository":   "chiru2000/vendor_xiaomi_google",
-        "target_path":  "vendor/xiaomi/google",
+        "target_path":  "vendor/oppo/RMX1805",
         "revision":     "master"
 ]
