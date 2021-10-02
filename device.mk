@@ -64,7 +64,7 @@ PRODUCT_PACKAGES += \
     GoogleSounds
 
 # Get Hotword stuff
-$(call inherit-product-if-exists, vendor/xiaomi/google/google.mk)
+$(call inherit-product-if-exists, vendor/oppo/RMX1805/google.mk)
 
 # Hotword Enrollment
 PRODUCT_COPY_FILES += \

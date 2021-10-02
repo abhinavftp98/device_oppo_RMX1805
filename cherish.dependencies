@@ -5,9 +5,16 @@
     "remote": "github",
     "branch": "lineage-18.1"
   },
-    {
+ {
         "remote":       "github",
         "repository":   "chiru2000/vendor_xiaomi_google",
-        "target_path":  "vendor/xiaomi/google",
+        "target_path":  "vendor/oppo/RMX1805",
         "revision":     "master"
+  },
+  {
+    "repository": "techyminati/android_packages_apps_RealmeDirac",
+    "target_path": "packages/apps/RealmeDirac",
+    "remote": "github",
+    "branch": "master"
+  }
 ]
