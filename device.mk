@@ -200,6 +200,9 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_PACKAGES += \
     Soundrecorder
 
+PRODUCT_PACKAGES += \
+    PulseMusic
+
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
     RemovePackages
